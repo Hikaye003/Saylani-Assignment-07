@@ -1,0 +1,580 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar #logo{
+    height: 45px;
+    vertical-align: middle;
+    /* width: 20px; */
+}
+
+ #nav ul li{
+    display: inline;
+    margin:35px;
+}
+
+ul li a{
+   text-decoration: none;
+   color: lightgray;
+  
+}
+
+
+nav{
+     display: flex; 
+     margin-left: 23%;  
+    
+}
+/* 
+header{
+    position: fixed;
+    z-index: 12;
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.8); 
+    text-align: center
+} */
+
+#navbar  #search{
+    height: 25px;
+    vertical-align: middle;
+}
+
+
+#navbar  #cart{
+    height: 25px;
+    vertical-align: middle;
+}
+ 
+#navbar{
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+} 
+
+
+#covid{
+    background-color: #0071E3;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    /* margin-top: 20px; */
+}
+
+#covid a{
+    color: white;
+    text-decoration: none;
+}
+
+#covid a:hover{
+    text-decoration: underline;
+    transition: 0.9s;
+}
+
+#covid p{
+    padding-top: 15px;
+    /* margin-top: 10px; */
+}
+
+#gt{
+    display: inline;
+    vertical-align: middle;
+}
+
+#shop-online{
+    text-align: center;
+}
+
+#shop-online a{
+    text-decoration: none;
+    color: #0071E3;
+}
+
+#shop-online p{
+    padding-top: 12px;
+}
+#main{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#mainhead{
+    font-size: 50px;
+}
+
+#subhead{
+    font-size: 24px;
+}
+
+#power a{
+    text-decoration: none;
+    color: #86868b;;
+}
+
+#price-info{
+    color: #86868b;
+    font-size: 20px
+}
+
+#price-info #buy{
+    margin-top: 5px;
+}
+
+#links{
+    margin-top: 15px;
+}
+
+#links a{
+    text-decoration: none;
+    color: #0071E3;
+    margin: 30px;
+}
+
+#image{
+    margin-top: 50px;
+}
+
+#img1{
+    height: 524px;
+    /* width: 3010px; */
+}
+
+#main1{
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#mainhead1{
+    color: white;
+    font-size: 50px;
+    padding-top: 25px;
+}
+
+#subhead1{
+    color: white;
+    font-size: 24px;
+}
+
+#img2{
+    /* height: 500px; */
+    width: 1800px;
+    /* margin-top: -28px; */
+}
+
+#main2{
+
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#mainhead2{
+    font-size: 50px;
+}
+
+#subhead2{
+    font-size: 24px;
+}
+
+#img3{
+    height: 400px;
+    /* width: 10px; */
+    margin-top: -40px;
+}
+
+#heading1{
+    margin-left: 33%;
+    padding-top: 35px;
+}
+
+#mainhead3 span{
+    font-size: 40px;
+    color: #f5f5f7;
+
+}
+
+#subhead3{
+    font-size: 20px;
+    color: #f5f5f7;
+    text-align: center;
+} 
+
+#containers{
+    margin-left: 2%;
+}
+
+#container-1{
+    background-color: black;
+    display: inline-flex;
+    background-image: url(images/man1.jpg);
+    width: 900px;
+    height: 580px;
+    background-size: 900px 580px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+#container-2{
+    background-color: black;
+    display: inline-flex;
+    width: 900px;
+    height: 580px;
+    background-size: 900px 580px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-image: url(images/watch.jpg);
+    margin-left: 1%;
+}
+
+#heading1 #link a{
+    text-decoration: none;
+    color: #0071E3;
+    font-size: 20px;
+}
+
+#heading1 #link{
+    padding:20px;
+    text-align: center;
+}
+
+#watch{
+    padding: 50px;
+    margin-left: 30%;
+}
+
+#watch #logo {
+    height: 40px;
+    vertical-align: middle;
+    /* display: inline; */
+}
+
+#watch ul li{
+    color: white;
+    font-size: 28px;
+}
+
+#watch #series{
+    color: red;
+    margin-left: 26%;
+}
+
+#watch #intro{
+    color: #f5f5f7;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#containers1{
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+
+#container-3{
+    background-color: black;
+    display: inline-flex;
+    background-image: url(images/watches.jpg);
+    width: 900px;
+    height: 500px;
+    background-size: 900px 500px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+
+
+
+#watch1 #icons {
+    /* width: 1000px;
+    height: 500px;
+    margin-right: auto; */
+    width: 900px;
+    height: 500px;
+}
+
+#watch1 #series1{
+    color: black;
+    margin-left: 10%;
+}
+
+#heading1 #link1{
+    padding:0px;
+    text-align: center;
+}
+
+#heading1 #mainhead4{
+    color: black;
+    font-size: 40px;
+}
+
+#heading1 #limit{
+    text-align: center;
+    color: goldenrod;
+}
+
+#heading1 #subhead4{
+    color: #86868b;
+    font-size: 15px;
+   
+}
+
+#container-4{
+    background-color: white;
+    display: inline-flex;
+     width: 558px;
+     height: 341px; 
+    background-size: 558px 341px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    /* background-image: url(/images/icons.jpg); */
+    margin-left: 1%;
+    /* background-position: bottom; */
+    
+}
+
+#watch1 #icons{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+#watch1 #icons{
+    width: 800px;
+    height: 341px;
+}
+
+#watch1 #logo2{
+    color: black;
+    height: 40px;
+    vertical-align: middle;
+    margin-left: 40%;
+}
+
+#watch1 #series1{
+    margin-left: 40%;
+}
+
+#watch1 ul li{
+    color: black;
+    font-size: 28px;
+    list-style: none;
+}
+
+#containers2{
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+#links1{
+    margin-left: 39%;
+}
+
+#links1 a{
+text-decoration: none;
+color: #0071E3;
+font-size: 20px;
+}
+#container-5{
+    background-color: black;
+    display: inline-flex;
+    background-image: url(images/craft.jpg);
+    width: 900px;
+    height: 580px;
+    background-size: 900px 580px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+#heading10 #subhead5{
+    color: goldenrod;
+    font-size: 21px;
+    margin-top: 5%;
+}
+
+#link10 #explore{
+    text-decoration: none;
+    color: #0071E3;
+    font-size: 20px;
+}
+
+#link10{
+    padding: 10px;
+    margin-left: 15%;
+}
+
+#heading10 #music{
+    margin-left: 16%;
+}
+
+#heading10{
+    margin-top: 5%;
+    margin-left: 40%;
+    padding-top: 35px;
+}
+
+#container-6{
+    background-color: black;
+    display: inline-flex;
+    width: 900px;
+    height: 580px;
+    background-size: 900px 580px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-image: url(images/astro.jpg);
+    margin-left: 1%;
+}
+
+#watch10 #tv{
+    /* height: 20px; */
+    padding: 40px;
+    /* margin-left: 145%; */
+    padding-left: 370px;
+}
+
+#linkss #btn{
+    vertical-align: middle;
+    padding: 5px;
+}
+
+#linkss{
+    margin-top: 15px;
+    padding: 80px;
+    padding-left: 350px;
+}
+
+#linkss a{
+    text-decoration: none;
+    color: white;
+    /* margin: 30px; */
+    font-size: 21px;
+}
+
+
+#container-13 ol li{
+    padding-top: 10px;
+    text-align: justify;
+    box-sizing: content-box;
+    font-size: 12px;
+    color: #86868b;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#container-13{
+    width: 50%;
+    text-align: center;
+    margin-left: 500px;
+    padding: 17px 12px 18px;
+    border-bottom: 1px solid #86868b;
+}
+
+.bor{
+    border-bottom: 1px  rgba(0, 0, 0,0.92);
+    width: 50%;
+    margin: auto;
+}
+
+/* #container-14{
+    display: flex;
+} */
+#box-14{
+    width: 50%;
+    /* text-align: center; */
+    margin-left: 500px;
+    padding: 17px 12px 18px;
+    display: flex;
+    
+}
+
+.con ul li{
+    list-style: none;
+    /* padding: 8px; */
+  
+}
+.p1{
+    margin-left: 5%;
+}
+
+.p1 #acc{
+    margin-top: 10%;
+}
+
+.p1 #container-17{
+    margin-top: 10%;
+}
+
+.p1 #container-22{
+    margin-top: 10%;
+}
+
+#products li{
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+#acc ul li{
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+#container-18 li{
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+#container-17 li{
+    padding-bottom: 8px;
+    padding-top: 8px;
+
+}
+
+#container-21 li{
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+#container-22 li{
+    padding-top: 8px;
+
+}
+
+#shop{
+    margin-left: 29%;
+    margin-top: 5px;
+    
+}
+
+#shop a{
+    text-decoration: none;
+    color: #0071E3;
+}
+
+#rights{
+    display: inline-flex;
+}
+
+#menu ul li{
+    display: inline;
+    padding: 20px;
+    border-right: 1px rgba(0, 0, 0,0.92);
+    
+}
+
+#menu ul li a{
+    color: #0071E3;
+}
+
+#menu{
+    display: inline-flex;
+    
+}
+
+.bor1{
+    border-bottom: 1px solid black;
+    width: 50%;
+    /* margin: auto  */
+    margin-left: 26%;
+}
+
+footer{
+    margin-left: 29%;
+    margin-top: 15px;
+}
